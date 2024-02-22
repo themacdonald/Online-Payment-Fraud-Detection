@@ -1,4 +1,5 @@
-#Online Transaction Fraud Detection
+##Online Transaction Fraud Detection#
+
 This repository contains a fraud detection model for online transactions using machine learning algorithms. The model is built in Python using the scikit-learn library and deployed using Streamlit.
 
 #Dataset
