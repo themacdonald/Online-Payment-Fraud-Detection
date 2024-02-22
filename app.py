@@ -15,12 +15,12 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 
 #data=pd.read_csv(r"E:\resume projects\zfraus_creditcarsd\PS_20174392719_1491204439457_log.csv")
-st.sidebar.image('plots\\payment_fraud.jpg', use_column_width=True)
+st.sidebar.image('plots/payment_fraud.jpg', use_column_width=True)
 
 # Load the trained models
-svm = joblib.load("weights\\linear_svm_model.pkl")
-logistic_regression_model = joblib.load("weights\\logistic_regression_model.pkl")
-xgboost_model = joblib.load("weights\\xgboost_model.pkl")
+svm = joblib.load("weights/linear_svm_model.pkl")
+logistic_regression_model = joblib.load("weights/logistic_regression_model.pkl")
+xgboost_model = joblib.load("weights/xgboost_model.pkl")
 
 # Intro page
 def intro():
