@@ -1,8 +1,8 @@
-*Online Transaction Fraud Detection*
+**Online Transaction Fraud Detection**
 
 This repository contains a fraud detection model for online transactions using machine learning algorithms. The model is built in Python using the scikit-learn library and deployed using Streamlit.
 
-*Dataset
+****Dataset****
 The dataset used for training and testing the model contains online transaction data. It includes the following columns:
 
 step: Represents a unit of time where 1 step equals 1 hour.
@@ -16,7 +16,7 @@ oldbalanceDest: Initial balance of recipient before the transaction.
 newbalanceDest: The new balance of recipient after the transaction.
 isFraud: Indicates whether the transaction is fraudulent (1) or not (0).
 
-*Model*
+**Model**
 The model uses several machine learning algorithms, including Support Vector Machine (SVM), Logistic Regression, and XGBoost, to classify transactions as fraudulent or non-fraudulent. To handle the imbalanced nature of the dataset, Synthetic Minority Over-sampling Technique (SMOTE) is used.
 
 The models achieved high accuracy, precision, and recall scores on the test set.
